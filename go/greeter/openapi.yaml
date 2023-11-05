@@ -16,6 +16,12 @@ paths:
           required: false
           schema:
             type: string
+        - name: title
+          in: query
+          description: title of the person to greet
+          required: false
+          schema:
+            type: string    
       responses:
         '200':
           description: Successful response
