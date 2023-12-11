@@ -1,6 +1,6 @@
 {
     "name": "Ballerina Greeter",
-    "image": "ballerina/ballerina-devcontainer:2201.3.1",
+    "image": "ballerina/ballerina-devcontainer:2201.5.3",
 
     "customizations": {
         "vscode": {
