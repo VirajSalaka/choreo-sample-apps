@@ -63,6 +63,7 @@ func main() {
 }
 
 func greet(w http.ResponseWriter, r *http.Request) {
+	time.Sleep(10 * time.Second)
 	name := r.URL.Query().Get("name")
 	if name == "" {
 		name = "Stranger"
